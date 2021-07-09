@@ -55,8 +55,8 @@ let package = Package(
             targets: ["AsyncDisplayKitIGListKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pinterest/PINRemoteImage.git", .branch("master")),
-        .package(url: "https://github.com/3a4oT/IGListKit", .branch("spmNumber10")),
+        .package(url: "https://github.com/pinterest/PINRemoteImage.git", from: "3.0.2"),
+        .package(url: "https://github.com/Instagram/IGListKit", from: "4.0.0"),
     ],
     targets: [
         .target(
